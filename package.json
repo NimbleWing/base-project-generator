@@ -7,7 +7,8 @@
     "commit": "cz",
     "prepare": "husky install",
     "build": "babel src -d dist",
-    "start": "nodemon --exec babel-node ./src/index.js"
+    "start": "nodemon --exec babel-node ./src/index.js",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,8 @@
     "@babel/plugin-transform-async-to-generator": "^7.13.0",
     "@babel/plugin-transform-runtime": "^7.13.15",
     "@babel/preset-env": "^7.14.1",
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/git": "^9.0.0",
     "commitizen": "^4.2.4",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^7.26.0",
@@ -37,7 +40,8 @@
     "husky": "^6.0.0",
     "lint-staged": "^11.0.0",
     "nodemon": "^2.0.7",
-    "prettier": "^2.3.0"
+    "prettier": "^2.3.0",
+    "semantic-release": "^17.4.2"
   },
   "config": {
     "commitizen": {
